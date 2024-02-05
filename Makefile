@@ -20,3 +20,8 @@ fmt: ## Format the project using cargo
 
 doc: ## Generate doc for rust project
 	@cargo doc
+
+install: ## Install cargo
+	@sudo apt install cargo
+	@sudo snap install rustup --classic
+	@rustup default stable
